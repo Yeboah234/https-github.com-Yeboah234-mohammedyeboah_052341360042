@@ -1,0 +1,71 @@
+.main-body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-image: url(R.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.mr{
+    font-size: 18px;
+    color: brown;
+    font-family: fantasy;
+    cursor: pointer;
+    transition: font-size,color 1s;
+}
+.mr:hover{
+    font-size: 22px;
+    color: rgb(72, 99, 123);
+
+}
+.NAV{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 77px;
+    
+}
+.manu{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.fist-list{
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    transition: color, font-size, border, 1s;
+}
+.fist-list:hover{
+    color: aqua;
+    font-size: 19px;
+    border-bottom: 2px solid white;
+    padding-bottom: 0px;
+}
+.SHOP-NAME{
+    background-color: rgba(240, 248, 255, 0.082);
+    
+   width: 50%;
+   min-height: 400PX;
+  
+   margin-left: auto;
+   
+}
+#name{
+    font-size: 50px;
+    text-align: center;
+    color: brown;
+}
+p{
+    color: aliceblue;
+    text-align: left;
+}
+a{
+    text-decoration: none;
+}
+/*This Css is for food */

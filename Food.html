@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .secornd-body{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            background-color: rgb(255, 220, 244);
+            position: absolute;
+        }
+        img{
+            width: 25%;
+            margin: 10px;
+            border-radius: 10px;
+            transition: all 1s;
+            cursor: pointer;
+            
+        }
+        img:hover{
+            margin: 5px;
+            width: 28%;
+        }
+        .images{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+        .food-manu{
+            width: 50%;
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+            min-height: 66px;
+
+        }
+        .ordered-list{
+            color: black;
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+            margin-right: 0px;
+
+        }
+        .second-list{
+            list-style: none;
+            font-weight: bold;
+            font-size: large;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+        }
+        .container-food{
+          width: 20%;
+          border: 2px solid gray;
+          justify-content:flex
+
+         
+        }
+        header{
+            margin: 0px;
+            padding: 0px;
+        }
+        /*style for services*/
+        .Service{
+            width: 100%;
+            min-height: 66px;
+        }
+        a{  
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="food-manu">
+            <ol class="ordered-list">
+                <li class="second-list">Menu</li>
+                <li class="second-list">List of salad</li>
+                <a href="index.html"><li class="second-list">Back to Home</li></a>
+            </ol>
+
+        </div>
+    </header>
+    <main class="secornd-body">
+        <div class="images">
+            <img src="OIP.jpeg" alt="">
+            <img src="iStock-680111050.jpg" alt="">
+            <img src="OIP (1).jpeg" alt="">
+            <img src="OIP (2).jpeg" alt="">
+            <img src="OIP (3).jpeg" alt="">
+            <img src="OIP (4).jpeg" alt="">
+            
+            <div class="container-food">
+
+            </div>
+        </div>
+        <div class="Service">
+
+
+        </div>
+    </main>
+</body>
+</html>
